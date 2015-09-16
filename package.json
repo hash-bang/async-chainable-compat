@@ -1,0 +1,32 @@
+{
+  "name": "async-chainable-compat",
+  "version": "1.0.0",
+  "description": "Plugin for async-chainable that provides the classic 'async' NPM functionality",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hash-bang/async-chainable-compat"
+  },
+  "license": "MIT",
+  "keywords": [
+    "async",
+    "async-chainable",
+    "compat"
+  ],
+  "author": "Matt Carter <m@ttcarter.com>",
+  "bugs": {
+    "url": "https://github.com/hash-bang/async-chainable-compat/issues"
+  },
+  "homepage": "https://github.com/hash-bang/async-chainable-compat",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "devDependencies": {
+    "async-chainable": "^1.7.4",
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  },
+  "dependencies": {
+    "async": "^1.4.2"
+  }
+}
